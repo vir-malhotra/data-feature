@@ -35,21 +35,15 @@ This app provides personalized **song recommendations** based on a user's Spotif
 1. **Clone or Download the Project**:
    - Clone the repository or download the project files to your local machine.
 
-2. **Install Required Libraries**:
-   - Install necessary Python libraries using the following command:
-     ```bash
-     pip install requests beautifulsoup4 pygame
-     ```
-
-3. **Set Up Spotify Developer Account**:
+2. **Set Up Spotify Developer Account**:
    - Go to the [Spotify Developer Dashboard](https://developer.spotify.com/dashboard/) and log in.
    - Create an app and copy the **Client ID** and **Client Secret**.
    - In the app settings, set the **Redirect URI** (e.g., `http://localhost/callback`).
 
-4. **Set Up Genius API**
+3. **Set Up Genius API**
   - Go to the [Genius Developer Portal](https://genius.com/developers) and create an app to get your **Genius API Token**.
 
-5. **Set Up Deezer API**:
+4. **Set Up Deezer API**:
    - No special setup is needed for Deezer API access as only song previews are used, which are publicly available.
 
 ---
